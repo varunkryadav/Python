@@ -1,4 +1,7 @@
 # Python
 Quantitative Finance Code in Python
-The Pricing Library conatains classes to price Lookback options using Monte Carlo Simulations and Closed Form Solutions.
-It also includes the same for pricing of Binary or Digital Options
+The Pricing Library conatains classes to value Lookback Options, Binary or Digital Options and Barrier Options.All the options can be valued using Monte Cartlo Simulations and Analytcial or Closed Form Solutions.
+
+Lookback Options will take inputs as Strike, Spot, Interest Rate, Volatility, Time, Number of Simulations and Number of Steps. For Floating lookback options input of strike is required, you can input any value and it shouldn't effect the results.
+
+The valuation uses Geometric Brownian Motion to value the options.
